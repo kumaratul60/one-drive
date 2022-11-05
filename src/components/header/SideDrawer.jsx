@@ -147,7 +147,7 @@ const SideDrawer = ({ isMenuOpen, setMenuOpen }) => {
       >
         <div className={cls.drawerHeader}>
           <div className={globalCls.txtSmPri}>
-            <strong>One</strong> Drive
+            <strong>Online one</strong> Drive
           </div>
         </div>
 
