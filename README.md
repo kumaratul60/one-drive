@@ -6,16 +6,27 @@ Drive.
 ## Available features
 
 :heavy_check_mark: Browse through any folder by double-clicking on it.
+
 :heavy_check_mark: Create file and folder
+
 :heavy_check_mark: Delete file and folder
+
 :heavy_check_mark: Rename file and folder
+
 :heavy_check_mark: Navigate using breadcrumbs along with back button
+
 :heavy_check_mark: Prevent duplicate file/folder creation
+
 :heavy_check_mark: Prevent empty(blank/white space) to set file/folder name
+
 :heavy_check_mark: Search file and folder by name
+
 :heavy_check_mark: Persistent state implemented that you can find you files and folder when you want, only removed/deleted by user action.
+
 :heavy_check_mark: Light and dark themes implemented for better user experience
+
 :heavy_check_mark: Mobile responsive
+
 
 ### Snapshots of project 👇
 
