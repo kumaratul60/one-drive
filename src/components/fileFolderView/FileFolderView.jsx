@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import clsx from "clsx";
 import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
 
@@ -64,10 +64,10 @@ const FileFolderView = ({
   const helper = useSelector((state) => state.helper);
   const fileFolder = useSelector((state) => state.fileFolder);
 
-  const [filesList, setFilesList] = React.useState([]);
-  const [foldersList, setFoldersList] = React.useState([]);
+  const [filesList, setFilesList] = useState([]);
+  const [foldersList, setFoldersList] = useState([]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     let tempFolderList = [],
       tempFileList = [];
 

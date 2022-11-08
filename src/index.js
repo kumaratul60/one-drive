@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import PropagateLoader from "react-spinners/PropagateLoader";
 
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
@@ -13,8 +14,16 @@ root.render(
   <React.StrictMode>
     <Suspense
       fallback={
-        <div style={{ textAlign: "center" }}>
-          <h3>Loading...</h3>
+        <div
+          style={{
+            // textAlign: "center",
+            display: "grid",
+            placeItems: "center",
+            marginTop: "300px",
+          }}
+        >
+          {/* <h3>Loading...</h3> */}
+          <PropagateLoader loading={true} color="#307B73" />
         </div>
       }
     >

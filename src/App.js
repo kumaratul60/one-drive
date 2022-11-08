@@ -1,4 +1,4 @@
-import { Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 // Assets
 
@@ -99,11 +99,11 @@ function App() {
   return (
     <ThemeProvider theme={appTheme}>
       <div className="App">
-        <Switch>
+        <Routes>
           {defaultRoutes.map((route, i) => {
             return <Route key={i} {...route} path={`${route.path}`} />;
           })}
-        </Switch>
+        </Routes>
       </div>
     </ThemeProvider>
   );

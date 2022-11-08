@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import clsx from "clsx";
 import CheckboxTree from "react-checkbox-tree";
 
@@ -40,7 +40,7 @@ const FileSideDrawer = ({ handleAddFileFolder, onClick }) => {
 
   const fileFolder = useSelector((state) => state.fileFolder);
 
-  const [state, setState] = React.useState({
+  const [state, setState] = useState({
     checked: [],
     expanded: [],
   });
